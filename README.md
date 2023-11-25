@@ -4,8 +4,7 @@ Code to run a clock (HHMM) and calendar (ddmm yyyy) on a custom 110 LED panel ma
 
 ## LED layout
 
-<text style="font-family: monospace">
-<text style="color: red">H</text>
+${\color{red} H}
 <text style="color: yellow">H</text>
 <text style="color: green">M</text>
 <text style="color: blue">M</text>
