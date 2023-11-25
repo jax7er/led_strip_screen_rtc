@@ -2,6 +2,10 @@
 
 Code to run a clock (HHMM) and calendar (ddmm yyyy) on a custom 110 LED panel made out of a strip of LEDs connected together in columns.
 
+## Circuit
+
+![Circuit](img/led_strip_screen_rtc.png)
+
 ## LED layout
 
 $${\color{red}\texttt{H}\color{yellow}\space\texttt{H}\color{green}\space\texttt{M}\color{blue}\space\texttt{M}}$$
