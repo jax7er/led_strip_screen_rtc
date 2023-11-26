@@ -30,6 +30,6 @@ constexpr uint64_t period_1s_ms{1000ULL}; // must be at least 1
 extern CRGB leds[];
 
 // serpentine layout, origin at bottom left
-auto xy = [](int8_t x, int8_t y){ return (x % 2) ? (HEIGHT * (x + 1)) - y -1 : y + (HEIGHT * x); };
+auto xy = [](int8_t x, int8_t y){ return (x % 2) ? (HEIGHT * (x + 1)) - y - 1 : y + (HEIGHT * x); };
 
 #endif // __UTIL_H__
